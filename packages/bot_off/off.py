@@ -9,7 +9,7 @@
 
 def command_off(source, parameters):
 	if parameters.strip():
-		bot_off(translate['comms']['off'] + ' (' + parameters + ')')
+		bot_off(u'%s (%s)' % (translate['comms']['off'], parameters))
 	else: bot_off(translate['comms']['off'])
 
 reg_command('off', command_off, 8)
