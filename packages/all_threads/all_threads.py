@@ -3,8 +3,6 @@
 # This program published under Apache 2.0 license
 # See LICENSE for more details
 # My EMail: assassin@sonikelf.ru
-# My XMPP-conference: bottiks@conference.jabber.ru
-# My Site: bottiks.ucoz.ru
 # all_threads package for Altaire XMPP bot
 
 getThreads = lambda: [x.getName() for x in smartThr.enumerate()]
